@@ -1,0 +1,15 @@
+C:\infodation\DemoBCD\DemoApp\UnitOfWork\bin\Debug\net5.0\UnitOfWork.deps.json
+C:\infodation\DemoBCD\DemoApp\UnitOfWork\bin\Debug\net5.0\UnitOfWork.dll
+C:\infodation\DemoBCD\DemoApp\UnitOfWork\bin\Debug\net5.0\ref\UnitOfWork.dll
+C:\infodation\DemoBCD\DemoApp\UnitOfWork\bin\Debug\net5.0\UnitOfWork.pdb
+C:\infodation\DemoBCD\DemoApp\UnitOfWork\bin\Debug\net5.0\Demo.Entities.dll
+C:\infodation\DemoBCD\DemoApp\UnitOfWork\bin\Debug\net5.0\Demo.Entities.pdb
+C:\infodation\DemoBCD\DemoApp\UnitOfWork\obj\Debug\net5.0\UnitOfWork.csproj.AssemblyReference.cache
+C:\infodation\DemoBCD\DemoApp\UnitOfWork\obj\Debug\net5.0\UnitOfWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\infodation\DemoBCD\DemoApp\UnitOfWork\obj\Debug\net5.0\UnitOfWork.AssemblyInfoInputs.cache
+C:\infodation\DemoBCD\DemoApp\UnitOfWork\obj\Debug\net5.0\UnitOfWork.AssemblyInfo.cs
+C:\infodation\DemoBCD\DemoApp\UnitOfWork\obj\Debug\net5.0\UnitOfWork.csproj.CoreCompileInputs.cache
+C:\infodation\DemoBCD\DemoApp\UnitOfWork\obj\Debug\net5.0\UnitOfWork.csproj.CopyComplete
+C:\infodation\DemoBCD\DemoApp\UnitOfWork\obj\Debug\net5.0\UnitOfWork.dll
+C:\infodation\DemoBCD\DemoApp\UnitOfWork\obj\Debug\net5.0\ref\UnitOfWork.dll
+C:\infodation\DemoBCD\DemoApp\UnitOfWork\obj\Debug\net5.0\UnitOfWork.pdb

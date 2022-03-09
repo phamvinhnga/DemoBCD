@@ -1,0 +1,14 @@
+C:\infodation\DemoBCD\DemoApp\Demo.Entities\bin\Debug\net5.0\Demo.Entities.deps.json
+C:\infodation\DemoBCD\DemoApp\Demo.Entities\bin\Debug\net5.0\Demo.Entities.dll
+C:\infodation\DemoBCD\DemoApp\Demo.Entities\bin\Debug\net5.0\ref\Demo.Entities.dll
+C:\infodation\DemoBCD\DemoApp\Demo.Entities\bin\Debug\net5.0\Demo.Entities.pdb
+C:\infodation\DemoBCD\DemoApp\Demo.Entities\obj\Debug\net5.0\Demo.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\infodation\DemoBCD\DemoApp\Demo.Entities\obj\Debug\net5.0\Demo.Entities.AssemblyInfoInputs.cache
+C:\infodation\DemoBCD\DemoApp\Demo.Entities\obj\Debug\net5.0\Demo.Entities.AssemblyInfo.cs
+C:\infodation\DemoBCD\DemoApp\Demo.Entities\obj\Debug\net5.0\Demo.Entities.csproj.CoreCompileInputs.cache
+C:\infodation\DemoBCD\DemoApp\Demo.Entities\obj\Debug\net5.0\Demo.Entities.dll
+C:\infodation\DemoBCD\DemoApp\Demo.Entities\obj\Debug\net5.0\ref\Demo.Entities.dll
+C:\infodation\DemoBCD\DemoApp\Demo.Entities\obj\Debug\net5.0\Demo.Entities.pdb
+C:\infodation\DemoBCD\DemoApp\Demo.Entities\bin\Debug\net5.0\Demo.Entities.runtimeconfig.json
+C:\infodation\DemoBCD\DemoApp\Demo.Entities\bin\Debug\net5.0\Demo.Entities.runtimeconfig.dev.json
+C:\infodation\DemoBCD\DemoApp\Demo.Entities\obj\Debug\net5.0\Demo.Entities.genruntimeconfig.cache
