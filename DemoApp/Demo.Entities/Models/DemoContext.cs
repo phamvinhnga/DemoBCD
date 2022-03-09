@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Demo.Entities.Models
 {
-    public class DemoContext : DbContext
+    public class DemoContext : IdentityDbContext
     {
         public DemoContext(DbContextOptions options) : base(options)
         {

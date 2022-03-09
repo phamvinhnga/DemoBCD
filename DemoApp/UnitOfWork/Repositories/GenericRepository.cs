@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System;
 
 namespace UnitOfWork.Repositories
 {
@@ -26,7 +27,7 @@ namespace UnitOfWork.Repositories
             await dbSet.AddAsync(entity);
         }
 
-        public T Get(int id)
+        public T Get(Guid id)
         {
             return dbSet.Find(id);
         }
@@ -43,12 +44,12 @@ namespace UnitOfWork.Repositories
             return await dbSet.ToListAsync();
         }
 
-        public virtual async Task<T> GetAsync(int id)
+        public virtual async Task<T> GetAsync(Guid id)
         {
             return await dbSet.FindAsync(id);
         }
 
-        public bool Remove(int id)
+        public bool Remove(Guid id)
         {
             var entity = dbSet.Find(id);
             if (entity == null)
@@ -59,7 +60,7 @@ namespace UnitOfWork.Repositories
             return true;
         }
 
-        public virtual async Task<bool> RemoveAsync(int id)
+        public virtual async Task<bool> RemoveAsync(Guid id)
         {
             var entity = await GetAsync(id);
             if (entity is null)

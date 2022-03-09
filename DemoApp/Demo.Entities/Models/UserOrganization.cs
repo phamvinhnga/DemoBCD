@@ -12,10 +12,10 @@ namespace Demo.Entities.Models
 
         public Guid TitleId { get; set; }
 
-        public Guid UserId { get; set; }
+        /*public Guid UserId { get; set; }
 
         [ForeignKey("UserId")]
-        public virtual User User { get; set; }
+        public virtual User User { get; set; }*/
 
         [ForeignKey("OrganizationId")]
         public virtual Organization Organization { get; set; }

@@ -29,7 +29,7 @@ namespace UnitOfWork.Configurations.ClassRepositories
             {
                 return context.SaveChanges();
             }
-            catch (Exception ex)
+            catch (Exception)
             {                
                 return 0;
             }
@@ -41,7 +41,7 @@ namespace UnitOfWork.Configurations.ClassRepositories
             {
                 return context.SaveChangesAsync();
             }
-            catch (Exception ex)
+            catch (Exception)
             {                
                 return Task.FromResult(0);
             }

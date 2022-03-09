@@ -21,6 +21,6 @@ namespace UnitOfWork.Configurations.ClassRepositories
 
         public IGenericRepository<Organization> Organizations { get; init; }
         public IGenericRepository<Title> Titles { get; init; }
-        public IGenericRepository<UserOrganization> UserOrganizations { get; init; }
+        public IGenericRepository<UserOrganization> UserOrganizations { get; init; }        
     }
 }

@@ -12,3 +12,4 @@ C:\infodation\DemoBCD\DemoApp\Demo.Entities\obj\Debug\net5.0\Demo.Entities.pdb
 C:\infodation\DemoBCD\DemoApp\Demo.Entities\bin\Debug\net5.0\Demo.Entities.runtimeconfig.json
 C:\infodation\DemoBCD\DemoApp\Demo.Entities\bin\Debug\net5.0\Demo.Entities.runtimeconfig.dev.json
 C:\infodation\DemoBCD\DemoApp\Demo.Entities\obj\Debug\net5.0\Demo.Entities.genruntimeconfig.cache
+C:\infodation\DemoBCD\DemoApp\Demo.Entities\obj\Debug\net5.0\Demo.Entities.csproj.AssemblyReference.cache
