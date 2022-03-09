@@ -1,14 +1,20 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Demo.Entities.Models;
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+using UnitOfWork.Configurations.InterfaceRepositories;
+using UnitOfWork.Repositories;
 
 namespace Demo.API.Controllers.Base
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
-    public class CRUDBaseController<IGenericRepository<T>> : Controller
+    public class CRUDBaseController<T> : ControllerBase where T : IDemoUnitOfWork
     {
-        public IActionResult Index()
+        private readonly IDemoUnitOfWork demoUnitOfWork;          
+        public CRUDBaseController(IDemoUnitOfWork demoUnitOfWork)
         {
-            return View();
-        }
+            this.demoUnitOfWork = demoUnitOfWork;
+        }       
     }
 }
