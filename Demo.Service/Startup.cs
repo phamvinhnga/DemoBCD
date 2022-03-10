@@ -6,6 +6,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using System;
+using System.Linq;
 
 namespace Demo.Service
 {
@@ -56,20 +58,17 @@ namespace Demo.Service
                 });
             });
 
-
             services.AddCors(options =>
             {
                 options.AddPolicy(
                     name: _defaultCorsPolicyName,
                     builder =>
                     {
-                        builder.WithOrigins("http://localhost:4300").AllowAnyHeader()
+                        builder.WithOrigins(Configuration.GetSection("CorsOrigins").Value.Split(",", StringSplitOptions.RemoveEmptyEntries)).AllowAnyHeader()
                                                   .AllowAnyMethod();
                     });
             });
 
-            //config unit of work
-            //services.AddScoped<InterfaceOfUoWDBContext, UoWDBContext>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
